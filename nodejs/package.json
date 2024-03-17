@@ -1,0 +1,14 @@
+{
+    "name": "nodejs-mysql-crud",
+    "version": "1.0.0",
+    "description": "Node.js application with MySQL Docker + CRUD operation",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mysql": "^2.18.1"
+    }
+  }
+  
