@@ -36,7 +36,6 @@ spec:
             - name: nginx-config
               mountPath: /etc/nginx/nginx.conf
               subPath: nginx.conf
-          # Inline Nginx configuration
           command: ["/bin/bash", "-c"]
           args:
             - |
